@@ -10,7 +10,7 @@ module.exports = async function (context, req) {
     else {
         context.res = {
             status: 400,
-            body: "Please pass a name on the query string or in the request bodyies"
+            body: "Please pass a name on the query string or in the request aws Cloud "
         };
     }
 };
